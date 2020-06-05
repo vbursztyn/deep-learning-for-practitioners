@@ -1,5 +1,5 @@
 ## AutoGAN Scribe Notes
----
+
 1. GANs have a generator and a discrimator, one acting adversarially towards the other: the generator's goal is to maximize classification error while the discriminator's goal is to minimize it.
 
 2. Progressive Growing GANs follow a recipe based on increasingly higher resolutions for the generated images, presumably increasing the difficulty in discriminating between false and true images.
@@ -16,4 +16,4 @@
 ---
 ### Key takeaways:
 
-So, in conclusion, we have AutoGAN as a means for searching the many design decisions one can make when setting up a GAN, leading to results that are comparable to prior works in terms of performance and robustness, despite being less performatic when compared to "fine-tuned" Progressive GANs. It's unclear to me how much time it takes and it saves by automating this aspect of the experimentation (update with Prem's comment: search takes 43 hours for STL-10!).
+9. So, in conclusion, we have AutoGAN as a means for searching the many design decisions one can make when setting up a GAN, leading to results that are comparable to prior works in terms of performance and robustness, despite being less performatic when compared to "fine-tuned" Progressive GANs. It's unclear to me how much time it takes and it saves by automating this aspect of the experimentation (update with Prem's comment: search takes 43 hours for STL-10!).
